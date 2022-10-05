@@ -1,0 +1,58 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background-color: black;
+position: relative;
+}
+
+.dd2 {
+display: inline-block;
+text-align: center;
+background-image: url("Region.png");
+position: relative;
+background-size: cover;
+background-position: top;
+width: 100%;
+height: auto;
+}
+
+.mn {
+display: block;
+width: 70%;
+position: relative;
+margin: 0 auto;
+height: auto;
+background-color: white;
+border-radius: 20px;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+  
+.zin, .zin1 {
+display: inline-block;
+margin: 20px;
+padding-inline-start: 0;
+padding: 40px;
+vertical-align: middle;
+position: relative;
+width:35%;
+border-radius: 20px;
+}
+
+.zin{
+background-color: blue;
+}
+
+.zin1{
+background-color: red;
+}
+
+p, h1 {
+text-align: left;
+ width: 100%;
+}
+  
